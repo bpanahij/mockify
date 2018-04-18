@@ -1,0 +1,29 @@
+{
+  "name": "mockify",
+  "version": "1.0.0",
+  "description": "Mock server for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bpanahij/mockify.git"
+  },
+  "keywords": [
+    "mock",
+    "server",
+    "testing"
+  ],
+  "author": "Brian P Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpanahij/mockify/issues"
+  },
+  "homepage": "https://github.com/bpanahij/mockify#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "immutable": "^3.8.2"
+  }
+}
