@@ -24,6 +24,7 @@
   "homepage": "https://github.com/bpanahij/mockify#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "immutable": "^3.8.2"
+    "immutable": "^3.8.2",
+    "uuid": "^3.2.1"
   }
 }

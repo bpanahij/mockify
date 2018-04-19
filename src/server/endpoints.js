@@ -1,10 +1,27 @@
-const ENDPOINTS = 'endpoints';
 const SUCCESS = '200';
+const TYPE_COLLECTION = 'collection';
 
-const getPath = (path) => path.split('/').filter(item => item.trim() !== '');
+const PATH = 'path';
+const STATUS = 'status';
+const DATA = 'data';
+const METHOD = 'method';
+const TYPE = 'type';
+
+const METHOD_POST = 'POST';
+const METHOD_GET = 'GET';
+const METHOD_DELETE = 'DELETE';
+const METHOD_PUT = 'PUT';
 
 module.exports = {
-	ENDPOINTS,
 	SUCCESS,
-	getPath
+	TYPE_COLLECTION,
+	PATH,
+	STATUS,
+	DATA,
+	METHOD,
+	TYPE,
+	METHOD_POST,
+	METHOD_DELETE,
+	METHOD_GET,
+	METHOD_PUT
 };

@@ -1,1 +1,21 @@
-{"endpoints":{"brians":{"12345":{"200":{"test":100}}}}}
+{
+  "endpoints": {
+    "brians": {
+      "12345": {
+        "data": [
+          {
+            "test": "Brian JOhnson",
+            "id": "ec0090c0-4407-11e8-a901-a9de8c2f970a"
+          },
+          {
+            "test": "Brian JOhnson",
+            "id": "ed9a6aa0-4407-11e8-a901-a9de8c2f970a"
+          }
+        ],
+        "status": 200,
+        "type": "collection",
+        "method": "GET"
+      }
+    }
+  }
+}
