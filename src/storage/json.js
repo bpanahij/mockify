@@ -114,7 +114,10 @@ const addToCollection = (path, body) => {
  */
 const removeFromCollection = (path, id) => {
 	const mock = getEndpoint(path);
-	const index = mock[DATA].indexOf(item => item.id === id)
+	const index = mock[DATA].findIndex(item => item.id == id);
+	if (index < 0) {
+		return null;
+	}
 	mock[DATA].splice(index, 1);
 	setEndpoint(path, mock);
 	return id;
